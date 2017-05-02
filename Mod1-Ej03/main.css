@@ -1,0 +1,48 @@
+* {
+    align-content: center;
+}
+body{
+    background-color: white;
+}
+#contenido{
+    padding: 100px;
+}
+img{
+    width:100px;
+}
+#hacker{
+    align-content: left;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+#designer{
+    align-content: center;
+    font-family: "Book Antiqua";
+    font-size: 20px;
+}
+
+#dribbble{
+    align-content: right;
+    font-family: "Times New Roman";
+    font-size: 20px;
+
+}
+
+.column1{
+    position: relative;
+    width:33%;
+    float: left;
+}
+
+.column2{
+position: relative;
+width:33%;
+float: left;
+}
+
+.column3{
+position: relative;
+width:33%;
+float: left;
+}
