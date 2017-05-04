@@ -1,0 +1,71 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.horizontal-navbar {
+    width: 100%;
+    height: 25px;
+    list-style: none;
+    padding-left: 0;
+    background-color: grey;
+    border-bottom: 2px;
+    border-block-end-color: purple;
+}
+
+.horizontal-navbar li {
+    float: left;
+    padding: 0px 20px 0px 0px; 
+}
+
+.horizontal-navbar li a {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border: 1px;
+}
+
+.horizontal-navbar li.item-right {
+    float: right;
+}
+
+#banner {
+    background-color: yellow;
+    text-align: center;
+    padding: 200px;
+}
+
+#features {
+    padding: 100px;
+    background-color: red;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.features-container {
+    align-content: center;
+}
+
+.featurebox {
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+
+#team {
+    padding: 100px;
+    text-align: center;
+    width: 960px;
+    float: left;
+}
+.imagebox {
+    float: left;
+    width: 200px;
+    align-content: center;
+}
+
+#footer {
+    text-align: center;
+    float: left;
+    padding: 50px;
+}
