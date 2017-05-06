@@ -1,0 +1,111 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', 'Helvetica', sans-serif;
+  color: white;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+  height: 97vh;
+}
+
+.navbar {
+  background-color: #3A3939;
+  border-right: 1px solid black;
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.mobile-navbar {
+  width: 100%;
+}
+
+.mobile-navbar ul {
+  padding: 12px 10px;
+  margin: 0;
+  border-bottom: 1px solid black;
+}
+
+.mobile-navbar li {
+  display: inline-block;
+  padding: 4px 12px;
+}
+
+.content {
+  display: inline-block;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  width: 75%;
+  height: 100%;
+  padding: 1% 2%;
+  background-color: #232323;
+  overflow-y: scroll;
+}
+
+.card {
+  background-color: #3A3939;
+  display: inline-block;
+  margin: 10px;
+  width: 350px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.thumbnail {
+  width: 350px;
+  margin: -2px -6px;
+}
+
+.summary {
+  color: #B1B1B1;
+  padding: 2px 6px;
+}
+
+.summary-header {
+  color: white;
+  margin: 8px 0;
+}
+
+.no-effect {
+  color: inherit;
+  text-decoration: none;
+}
+
+.profile-picture {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.menu  {
+  list-style: none;
+  padding: 0;
+}
+
+.active {
+  border-right: 5px solid #2ebd59;
+  background-color: rgba(128, 128, 128, 0.04);
+}
+
+.item {
+  padding: 12px;
+}
+
+.item:hover {
+  background-color: rgba(128, 128, 128, 0.14);
+  cursor: pointer;
+}
+
+.profile-picture-wrapper {
+  background-color: #232323;
+}
