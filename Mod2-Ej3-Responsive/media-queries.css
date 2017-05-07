@@ -1,19 +1,96 @@
 /* Print */
 @media print {
+    body{
+        color: black;
+        width: 100%;
+    }
+    summary-header {
+        color: black;
+}
+    #navbar{
+        display: none;
+    }
+    .card{
+        width: 250px;
+    }
+    .thumbnail{
+        width: 250px;
+    }
+    #container{
+        border: 0px; 
+        margin: auto;
+    }
+    #content{
+        width: 100%;
+        margin: auto;
+        overflow-y: none;
+    }
+    p{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
 }
 
 /* Extra Small Screens */
 @media (max-width: 767px) {
+    #navbar{
+        display: none;
 }
+    #content{
+        width: 96%;
+        overflow-y: none;
+    }
+    #container{
+        margin: 0px;
+        width: 100%;
+    }
 
 /* Small Screens */
 @media (min-width: 768px) and (max-width: 991px) {
+    #navbar{
+        display: none;
 }
+    #content{
+        width: 96%;
+        overflow-y: none;
+    }
+    #container{
+        margin: 0px;
+        width: 100%;
+    }
 
 /* Medium Screens */
 @media (min-width: 992px) {
+    .navbar {
+  background-color: #3A3939;
+  border-right: 1px solid black;
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+
+    #navbar {
+        display: none;
+    }
 }
 
 /* Large Screens */
 @media (min-width: 1200px) {
+    .navbar {
+  background-color: #3A3939;
+  border-right: 1px solid black;
+  display: inline-block;
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+    #navbar {
+        display: none;
+    }
 }

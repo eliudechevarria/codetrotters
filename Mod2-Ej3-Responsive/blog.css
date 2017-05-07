@@ -26,14 +26,15 @@ body {
 }
 
 .mobile-navbar ul {
-  padding: 12px 10px;
+  padding: 12px 10px 12px 10px;
   margin: 0;
   border-bottom: 1px solid black;
 }
 
 .mobile-navbar li {
   display: inline-block;
-  padding: 4px 12px;
+  padding: 4px 12px 4px 12px;
+
 }
 
 .content {
