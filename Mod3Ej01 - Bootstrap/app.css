@@ -1,0 +1,116 @@
+.navbar{
+    background-color: white;
+}
+
+
+.carousel-inner{
+    height: 300px;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+.section3{
+    margin-top: 10%;
+}
+
+
+.arrow{
+    width: 10px;
+    height: auto;
+}
+
+.thumbnail{
+    height: 140px;
+    border: none;
+}
+
+.signup{
+    background-color: #A5D435;
+    color: white;
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+
+label{
+    color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+
+input{
+    border-radius: 5px;
+}
+
+.signupbtn{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signupbtn:hover{
+    background-color: #516810;
+    border-color: #516810;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 100px;
+
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Extra Small Screens */
+@media (max-width: 767px) {
+.arrow{
+    display: none;
+}
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) {
+.arrow{
+    display: none;
+}
+
+/* Medium Screens */
+@media (min-width: 992px) {
+
+}
+
+/* Large Screens */
+@media (min-width: 1200px) {
+
+}
+
+
+

@@ -1,0 +1,20 @@
+1. Inline
+
+<button onclick= "alert ('Hello World');")
+Say it
+</button>
+
+2. Internal
+<script>
+alert("Hello World!");
+</script>
+
+
+3. External (Create file with .js)
+alert ('Hello World!');
+
+
+Data Type:
+
+String: "Hello World"
+Number: 1  0.5
