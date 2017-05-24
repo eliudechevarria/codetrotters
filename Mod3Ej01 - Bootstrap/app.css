@@ -13,8 +13,12 @@ img{
 }
 
 
-.section3{
+.african-music{
     margin-top: 10%;
+}
+
+.thumbnail-row{
+    margin-top: 25px;
 }
 
 
@@ -29,8 +33,10 @@ img{
 }
 
 .signup{
+    margin-top: 5%;
     background-color: #A5D435;
     color: white;
+    padding: 50px 50px;
 }
 
 h3{
@@ -78,7 +84,7 @@ input{
 
 /* Add padding to container elements */
 .container {
-    padding: 100px;
+ 
 
 }
 
@@ -109,6 +115,9 @@ input{
 
 /* Large Screens */
 @media (min-width: 1200px) {
+    .container {
+    width: 960px;
+   }
 
 }
 

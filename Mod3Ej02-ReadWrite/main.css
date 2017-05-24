@@ -1,0 +1,44 @@
+.row{
+}
+
+.col-md-4{
+
+}
+
+hr{
+    color: #d9d9d9;
+}
+
+.container{
+}
+
+.row{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-lg{
+    border-color: #d9d9d9;
+    width: 100%;
+    color: grey;
+    background-color:transparent;
+}
+
+.btn-lg:hover{
+    background-color: transparent;
+    color: grey;
+    border-color: #d9d9d9;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+p{
+    margin-top: 20px;
+}
