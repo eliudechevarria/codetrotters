@@ -1,0 +1,73 @@
+* 
+{
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    background-image: none;
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+}
+
+.section1{
+    
+}
+body{
+    margin-top: -20px;
+}
+
+.section1{
+background-color: #ED7D21;
+margin-top: 0px;
+padding: 150px 150px;
+}
+
+h1{
+    font-family: 'Dosis', sans-serif;
+   font-weight: 700;
+    margin: 0px;
+    color: #87440C;
+    text-align: center;
+
+}
+
+h3{
+    font-family: 'Dosis', sans-serif;
+    font-style: 400;
+    margin: 0px;
+    color: #87440C;
+    text-align: center;
+
+}
+
+.element{
+    
+}
+
+.row{
+    position: top;
+}
+
+#complicated {
+
+}
+
+.navbar-brand{
+    position: absolute;
+}
+
+.col-xl-4.col-padding-none,
+.col-xm-4.col-padding-none,
+.col-sm-4.col-padding-none,
+.col.md-4.col-padding-none {
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.col-padding-none > img {
+    position: relative;
+    
+}
+
