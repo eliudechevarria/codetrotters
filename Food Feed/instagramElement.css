@@ -64,7 +64,7 @@
 	width:20%;
 }
 
-.instagram-element .instagram-photo.image { background-color: #000000; }
+.instagram-element .instagram-photo.image { background-color: #ED7D21; border:20px; }
 .instagram-element .instagram-photo.video { background-color: #cc0000; }
 
 .instagram-element .instagram-photo img { 
@@ -87,8 +87,8 @@
 .instagram-element .instagram-photo .element-meta {
 	color: #fff;
 	filter: alpha(opacity=0);
-	font-family: 'Oswald',arial,serif; 
-	font-size: 20px;
+	font-family: 'Dosis', sans-serif;
+	font-size: 16px;
 	font-weight: 700;
 	left: 0;
 	line-height: 11px;
@@ -99,6 +99,8 @@
 	text-transform:uppercase;
 	top: 10%;
 	width: 100%;
+	letter-spacing: 1px;
+	line-height: 110%;
 }
 
 .instagram-element .instagram-photo .element-meta span { display: block; font-size: 10px; font-weight: 200; margin-top:10px; }
@@ -114,8 +116,8 @@
 }
 
 .instagram-element .instagram-photo:hover .icon { display:block; }
-.instagram-element .instagram-photo.video .icon { background:url("images/video-icon.png") no-repeat; }
-.instagram-element .instagram-photo.image .icon { background:url("images/link-icon.png") no-repeat; }
+/* .instagram-element .instagram-photo.video .icon { background:url("images/video-icon.png") no-repeat; }
+/* .instagram-element .instagram-photo.image .icon { background:url("images/image-icon.png") no-repeat; }
 
 /* User List */
 .instagram-user-all { background: none; cursor:pointer; display: inline-block; float: left; line-height: 0; width: 5%; }
@@ -136,9 +138,11 @@ body .instagram-element .instagram-media img { -webkit-transform: scale(1.3); -m
 
 /* Fancybox Information */
 .fancybox-nav { height:90%; width: 20%; }
-.fancybox-overlay .username-ui { font-family: 'Oswald',arial,serif; font-size: 20px; font-weight: 700; }
-.fancybox-overlay .date-ui { color:#a9abae; display:block; font-weight: 700; margin-bottom:3px; text-transform:uppercase; }
-.fancybox-overlay .description-ui {}
+.fancybox-overlay .username-ui {     font-family: 'Dosis', sans-serif; color: #ED7D21; font-size: 20px; font-weight: 700; }
+.fancybox-overlay .date-ui { color:#a9abae; display:block; font-weight: 400; margin-bottom:3px; text-transform:lowercase; }
+.fancybox-overlay .description-ui {
+	display: none;
+}
 .fancybox-overlay .likes-ui {}
 .fancybox-overlay .comments-ui {}
 .fancybox-overlay .location-ui {}
@@ -149,7 +153,7 @@ body .instagram-element .instagram-media img { -webkit-transform: scale(1.3); -m
 /* Tablets */
 @media screen and (max-width: 1100px) {
 	/* Classic View */
-	.instagram-element .instagram-stage { width:90%; }
+	.instagram-element .instagram-stage { width:00%; }
 	.instagram-element .instagram-media { height: auto; width:50%; }
 	.instagram-element .instagram-content { width:40%; }
 }

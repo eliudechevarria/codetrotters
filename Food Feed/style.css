@@ -11,34 +11,49 @@
 }
 
 .section1{
-    
 }
 body{
-    margin-top: -20px;
 }
 
 .section1{
 background-color: #ED7D21;
 margin-top: 0px;
-padding: 150px 150px;
 }
 
 h1{
     font-family: 'Dosis', sans-serif;
-   font-weight: 700;
-    margin: 0px;
-    color: #87440C;
+    font-weight: 700;
+    color: #ffffff;
     text-align: center;
+}
+
+#header{
+    height: auto; 
+    padding: 100px;
+}
+
+
+h3{
+    letter-spacing: 1px;
+    font-family: 'Dosis', sans-serif;
+    font-style: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+.icons{
+    width: 50px;
+    height: auto;
 
 }
 
-h3{
-    font-family: 'Dosis', sans-serif;
-    font-style: 400;
-    margin: 0px;
-    color: #87440C;
-    text-align: center;
+.row{
+    width: 300px;
+    align: center;
+}
 
+#pizza{
+    ;
 }
 
 .element{
@@ -49,25 +64,30 @@ h3{
     position: top;
 }
 
-#complicated {
+
+
+/* Extra Small Screens */
+@media (max-width: 767px) {
+    #header{
+    height: auto;
+    padding: 20px; 
+}
+
+    }
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) {
+#header{
+    height: auto; 
+}
+    }
+
+/* Medium Screens */
+@media (min-width: 992px) {
 
 }
 
-.navbar-brand{
-    position: absolute;
-}
+/* Large Screens */
+@media (min-width: 1200px) {
 
-.col-xl-4.col-padding-none,
-.col-xm-4.col-padding-none,
-.col-sm-4.col-padding-none,
-.col.md-4.col-padding-none {
-    padding-left: 0;
-    padding-right: 0;
-    overflow: hidden;
 }
-
-.col-padding-none > img {
-    position: relative;
-    
-}
-
